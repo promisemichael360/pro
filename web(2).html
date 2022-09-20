@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web(2).css">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/9b887bc5b3.
+js" crossorigin="anonymous"></script>
+</head>
+<style>
+</style>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="logo"><strong class="y">Pro</strong>Tec</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                <i class="fa-solid fa-bars-sort"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span id="h">Hello</span> <span>I'm</span><br>Promise Michael</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/istockphoto-920975780-612x612.jpg" class="img">
+                    
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero repudiandae, fugit vel laborum ut quae reiciendis velit. Totam quam vel veritatis eos sunt eum error sed dolorem labore earum, voluptatem est animi adipisci alias illum aspernatur. Nam voluptatem consequatur soluta consequuntur eius commodi, numquam ab voluptatibus eligendi. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="showall('Skills')">Skills</p>
+                        <p class="tab-links" onclick="showall('Experience')">Experience</p>
+                        <p class="tab-links" onclick="showall('Education')"  >Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Website/App interface</li>
+                            <li><span>Web Development</span><br>web App Develoment</li>
+                            <li><span>App Development</span><br>Building Android/iOS App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Website/
+                            App interface</li>
+                            <li><span>Web Development</span><br>web App Develoment</li>
+                            <li><span>App Development</span><br>Building Android/iOS App</li>
+                        </ul>
+                        </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>Junior High School</span><br>CFA</li><li><span>Senior High School</span><br>Nunsec/Visual Art</li><li><span>App Development</span><br>Building Android/iOS App</li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+<div> 
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non accusantium, perspiciatis est hic voluptates voluptas autem unde earum quia optio iste dicta? Ipsum blanditiis atque alias voluptatum necessitatibus qui neque natus, aperiam reprehenderit? Atque voluptatum modi, asperiores, nulla laboriosam quod inventore dolor, consequuntur est ullam minus repellendus minima deleniti!</p>
+    <a href="#">Learn More</a>
+</div>
+<div>
+    <i class="fa-solid fa-compass-drafting"></i>
+    <h2>UI/UX Design</h2>
+    <p>Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Quo non accusantium, perspiciatis 
+est hic voluptates voluptas autem unde earum quia 
+optio iste dicta? Ipsum blanditiis atque alias 
+voluptatum necessitatibus qui neque natus, aperiam 
+reprehenderit? Atque voluptatum modi, asperiores, 
+nulla laboriosam quod inventore dolor, consequuntur 
+est ullam minus repellendus minima deleniti!</p>
+    <a href="#">Learn More</a>
+</div>
+<div>
+    <i class="fa-brands fa-medapps"></i>
+    <h2>App Design</h2>
+    <p>Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Quo non accusantium, perspiciatis 
+est hic voluptates voluptas autem unde earum quia 
+optio iste dicta? Ipsum blanditiis atque alias 
+voluptatum necessitatibus qui neque natus, aperiam 
+reprehenderit? Atque voluptatum modi, asperiores, 
+nulla laboriosam quod inventore dolor, consequuntur 
+est ullam minus repellendus minima deleniti!</p>
+    <a href="#">Learn More</a>
+</div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./img/photo-1587620962725-abab7fe55159.avif">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/photo-1552233707-a3185320d9a0.avif">
+                <div class="layer">
+    <h3>Social Media App</h3>
+    <p>Lorem ipsum dolor sit amet
+consectetur adipisicing elit.</p>
+    <a href="#"><i class="fa-solid 
+fa-arrow-up-right-from-square"></i></a>
+</div>
+            </div>
+            <div class="work">
+                <img src="./img/photo-1506097425191-7ad538b29cef.avif">
+                <div class="layer">
+    <h3>Social Media App</h3>
+    <p>Lorem ipsum dolor sit amet 
+consectetur adipisicing elit.</p>
+    <a href="#"><i class="fa-solid 
+fa-arrow-up-right-from-square"></i></a>
+</div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------Contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+<div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+<p><i class="fa-sharp fa-solid fa-paper-plane"></i>Contact@example.com</p>
+<p><i class="fa-solid fa-phone"></i>0245116360</p>
+<div class="social-icon">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="./img/istockphoto-1341875475-170667a.jpg" download="" class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Protec<i class="fa-solid fa-copyright"></i> </p>
+        </div>
+    </div>
+    <script>
+        const tabLinks=document.getElementsByClassName('tab-links')
+        const tabContent=document.getElementsByClassName('tab-content')
+        function showall(about) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link')
+            }
+            for (tabContents of tabContent) {
+    tabContents.classList.remove('active-tab')
+}
+event.currentTarget.classList.add('active-link')
+document.getElementById(about).classList.add('active-tab')
+        }
+
+
+
+    </script>
+    <script>
+        var sideMenu=document.getElementById('sidemenu')
+        function openMenu() {
+            sideMenu.style.right='0'
+        }
+        function closeMenu() {
+    sideMenu.style.right='-300px'
+}
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzx1-9pqxzPSI25p9baXFJm27WqGO6k_t8-epCeoY3f_24KdUcCHWKr6Sqt56DvY3xK/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById('msg')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML='Message sent successfuly'
+        setTimeout(() => {
+            msg.innerHTML=''
+        }, 5000);
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
